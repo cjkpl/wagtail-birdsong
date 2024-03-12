@@ -2,7 +2,7 @@ from birdsong.conf import BIRDSONG_TEST_CONTACT
 from django.http.response import JsonResponse
 from django.shortcuts import render
 from django.template.loader import render_to_string
-from wagtail.contrib.modeladmin.views import CreateView, EditView, InspectView
+from wagtail_modeladmin.views import CreateView, EditView, InspectView
 
 
 def preview(request, campaign, test_contact):
